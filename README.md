@@ -43,14 +43,14 @@
 
 > 학습결과  
 - Confusion Matrix (혼돈 행렬)  
-![confusion_matrix](https://github.com/Oldentomato/datathon/readme_img/confusion_matrix.png)  
+![confusion_matrix](https://github.com/Oldentomato/datathon/blob/main/readme_img/confusion_matrix.png)  
 **레이블이 한글이라 이름이 깨짐**  
 - 전체적인 결과
-![results](https://github.com/Oldentomato/datathon/readme_img/results.png)  
+![results](https://github.com/Oldentomato/datathon/blob/main/readme_img/results.png)  
 - 정답이미지와 레이블
-![labels](https://github.com/Oldentomato/datathon/readme_img/val_batch0_labels.jpg)
+![labels](https://github.com/Oldentomato/datathon/blob/main/readme_img/val_batch0_labels.jpg)
 - 예측이미지와 레이블
-![pred](https://github.com/Oldentomato/datathon/readme_img/val_batch0_pred.jpg)  
+![pred](https://github.com/Oldentomato/datathon/blob/main/readme_img/val_batch0_pred.jpg)  
 - 클래스별 예측결과 리스트  
 
 |클래스명|이미지수|Instances|Precision|Recall|mAP50|mAP50-95| 
