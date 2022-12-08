@@ -103,6 +103,14 @@
 여자구두    |   4000   |    2002   |   0.992   |   0.995   |   0.995  |    0.935
 남자구두    |   4000   |    1999    |  0.983   |   0.998   |   0.995    |  0.921
 > 사용법  
+- 데이터분류 코드를 돌려 이미지와 라벨을 추출한 뒤, 학습을 진행
+- 검증 후에는 역정규화 및 csv 정리 코드를 돌려 csv파일 추출  
+- 학습명령어
+    ```
+    python train.py --img 640 --batch 4 --epochs 100 --data ./data/custom.yaml --cfg ./models/yolov5x.yaml --weights yolov5x.pt --name yolov5x_result2 --workers 1 --cache
+    ```
+
+
 - 검증명령어
     ```
     python detect.py --weights runs/train/yolov5x_result/weights/best.pt --img 640 --conf 0.4 --source ./inference/images/ 
@@ -110,5 +118,6 @@
     - --weights: 저장된 가중치 가져오는 경로
     - --img: 이미지 크기 640으로 조정 (검증시에만)
     - --conf: 0.4이상으로 검출된 레이블만 출력
-    - --source: 테스트할 이미지들 경로
+    - --source: 테스트할 이미지들 경로  
+
 
